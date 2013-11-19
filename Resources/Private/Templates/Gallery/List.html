@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="/typo3conf/ext/viflickr/Resources/Public/StyleSheets/jquery.fancybox.css" />
+<script src="/typo3conf/ext/viflickr/Resources/Public/JavaScripts/jquery.fancybox.pack.js"></script>
+<f:if condition="{albumData.photoset}">
+	<f:then>
+		<div id="flickrGallery">
+			<f:for each="{albumData.photoset.photo}" as="photo">
+				<a class="fancybox" rel="group" href="http://farm{photo.farm}.static.flickr.com/{photo.server}/{photo.id}_{photo.secret}{settings.lightboxSize}.jpg">
+					<img src="http://farm{photo.farm}.static.flickr.com/{photo.server}/{photo.id}_{photo.secret}{settings.thumbnailSize}.jpg" />
+				</a>
+			</f:for>
+		</div>
+	</f:then>
+	<f:else>
+		Album is empty, not public or the album ID or app token is wrong.
+	</f:else>
+</f:if>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>

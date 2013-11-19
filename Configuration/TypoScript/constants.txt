@@ -1,0 +1,19 @@
+plugin.tx_viflickr {
+	view {
+		# cat=plugin.tx_viflickr/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:viflickr/Resources/Private/Templates/
+		# cat=plugin.tx_viflickr/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:viflickr/Resources/Private/Partials/
+		# cat=plugin.tx_viflickr/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:viflickr/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_viflickr//a; type=string; label=Default storage PID
+		storagePid =
+	}
+
+	settings {
+		# cat=plugin.tx_viflickr//a; type=string; label=Flickr API Key
+		apiKey =
+	}
+}

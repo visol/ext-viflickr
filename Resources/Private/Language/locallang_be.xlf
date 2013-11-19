@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-11-18T07:37:53Z" product-name="viflickr">
+		<header/>
+		<body>
+			<trans-unit id="pluginTitle">
+				<source>Flickr Gallery</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.thumbnailSize">
+				<source>Thumbnail Size</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.lightboxSize">
+				<source>Lightbox Size</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.s">
+				<source>Square 75x75</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.q">
+				<source>Square 150x150</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.t">
+				<source>Thumbnail 100</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.m">
+				<source>Small 240</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.n">
+				<source>Small 320</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.500">
+				<source>Medium 500</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.z">
+				<source>Medium 640</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.c">
+				<source>Medium 800</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.b">
+				<source>Large 1024</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.h">
+				<source>Large 1600</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.k">
+				<source>Large 2048</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.sizes.o">
+				<source>Original</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.albumId">
+				<source>Album ID</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

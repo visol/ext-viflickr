@@ -1,0 +1,153 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+
+	<sheets>
+		<!--
+			################################
+			  SHEET General Settings
+			################################
+		-->
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Settings</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+                    <settings.albumId>
+                        <TCEforms>
+                            <label>LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.albumId</label>
+                            <config>
+                                <checkbox>1</checkbox>
+                                <default></default>
+                                <type>input</type>
+                                <size>15</size>
+                            </config>
+                        </TCEforms>
+                    </settings.albumId>
+
+					<settings.thumbnailSize>
+						<TCEforms>
+							<label>LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.thumbnailSize</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.s</numIndex>
+										<numIndex index="1">_s</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.q</numIndex>
+										<numIndex index="1">_q</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.t</numIndex>
+										<numIndex index="1">_t</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.m</numIndex>
+										<numIndex index="1">_m</numIndex>
+									</numIndex>
+									<numIndex index="5">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.n</numIndex>
+										<numIndex index="1">_n</numIndex>
+									</numIndex>
+									<numIndex index="6">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.500</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="7">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.z</numIndex>
+										<numIndex index="1">_z</numIndex>
+									</numIndex>
+									<numIndex index="8">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.c</numIndex>
+										<numIndex index="1">_c</numIndex>
+									</numIndex>
+									<numIndex index="9">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.b</numIndex>
+										<numIndex index="1">_b</numIndex>
+									</numIndex>
+									<numIndex index="10">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.h</numIndex>
+										<numIndex index="1">_h</numIndex>
+									</numIndex>
+									<numIndex index="11">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.k</numIndex>
+										<numIndex index="1">_k</numIndex>
+									</numIndex>
+									<numIndex index="12">
+										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.o</numIndex>
+										<numIndex index="1">_o</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.thumbnailSize>
+					<settings.lightboxSize>
+						<TCEforms>
+							<label>LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.lightboxSize</label>
+							<config>
+								<type>select</type>
+								<items>
+                                    <numIndex index="1">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.s</numIndex>
+                                        <numIndex index="1">_s</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.q</numIndex>
+                                        <numIndex index="1">_q</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.t</numIndex>
+                                        <numIndex index="1">_t</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.m</numIndex>
+                                        <numIndex index="1">_m</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.n</numIndex>
+                                        <numIndex index="1">_n</numIndex>
+                                    </numIndex>
+                                    <numIndex index="6">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.500</numIndex>
+                                        <numIndex index="1"></numIndex>
+                                    </numIndex>
+                                    <numIndex index="7">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.z</numIndex>
+                                        <numIndex index="1">_z</numIndex>
+                                    </numIndex>
+                                    <numIndex index="8">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.c</numIndex>
+                                        <numIndex index="1">_c</numIndex>
+                                    </numIndex>
+                                    <numIndex index="9">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.b</numIndex>
+                                        <numIndex index="1">_b</numIndex>
+                                    </numIndex>
+                                    <numIndex index="10">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.h</numIndex>
+                                        <numIndex index="1">_h</numIndex>
+                                    </numIndex>
+                                    <numIndex index="11">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.k</numIndex>
+                                        <numIndex index="1">_k</numIndex>
+                                    </numIndex>
+                                    <numIndex index="12">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.o</numIndex>
+                                        <numIndex index="1">_o</numIndex>
+                                    </numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.lightboxSize>
+
+
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

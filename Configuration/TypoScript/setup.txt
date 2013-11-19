@@ -1,0 +1,42 @@
+plugin.tx_viflickr {
+	view {
+		templateRootPath = {$plugin.tx_viflickr.view.templateRootPath}
+		partialRootPath = {$plugin.tx_viflickr.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_viflickr.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_viflickr.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+	settings {
+		apiKey = {$plugin.tx_viflickr.settings.apiKey}
+	}
+}
+
+plugin.tx_viflickr._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-viflickr table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-viflickr table th {
+		font-weight:bold;
+	}
+
+	.tx-viflickr table td {
+		vertical-align:top;
+	}
+)
