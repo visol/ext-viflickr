@@ -51,6 +51,18 @@
 			<trans-unit id="flexforms_general.albumId">
 				<source>Album ID</source>
 			</trans-unit>
+			<trans-unit id="flexforms_general.layout">
+				<source>Layout</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.layouts.1">
+				<source>Layout 1</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.layouts.2">
+				<source>Layout 2</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.layouts.3">
+				<source>Layout 3</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

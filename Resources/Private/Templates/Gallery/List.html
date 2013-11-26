@@ -2,7 +2,7 @@
 <script src="/typo3conf/ext/viflickr/Resources/Public/JavaScripts/jquery.fancybox.pack.js"></script>
 <f:if condition="{albumData.photoset}">
 	<f:then>
-		<div id="flickrGallery">
+		<div class="flickrGallery flickrGallery-layout{settings.layout}">
 			<f:for each="{albumData.photoset.photo}" as="photo">
 				<a class="fancybox" rel="group" href="http://farm{photo.farm}.static.flickr.com/{photo.server}/{photo.id}_{photo.secret}{settings.lightboxSize}.jpg">
 					<img src="http://farm{photo.farm}.static.flickr.com/{photo.server}/{photo.id}_{photo.secret}{settings.thumbnailSize}.jpg" />
