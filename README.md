@@ -7,4 +7,4 @@ The pictures are served directly from Flickr - the format of thumbnail and light
 
 The Flickr apiKey must be inserted in the TypoScript Constants; the static template must be included.
 
-The plugin comes unstiled (ATM).
+The plugin comes unstyled (ATM).
