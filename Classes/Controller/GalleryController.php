@@ -47,10 +47,9 @@ class GalleryController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
 			}
 		}
 
-		$webserviceBase = 'http://api.flickr.com/services/rest/?format=json';
+		$webserviceBase = 'https://api.flickr.com/services/rest/?format=json';
 		$webserviceUrl = $webserviceBase . '&method=flickr.photosets.getPhotos&api_key=' . $this->settings['apiKey'] . '&photoset_id=' . $this->settings['albumId'] . '&nojsoncallback=1';
 		$albumData = json_decode(file_get_contents($webserviceUrl));
-
 		$this->view->assignMultiple(array(
 			'albumData' => $albumData
 		));
