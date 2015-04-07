@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="/typo3conf/ext/viflickr/Resources/Public/StyleSheets/jquery.fancybox.css" />
-<script src="/typo3conf/ext/viflickr/Resources/Public/JavaScripts/jquery.fancybox.pack.js"></script>
 <f:if condition="{albumData.photoset}">
 	<f:then>
 		<div class="flickrGallery flickrGallery-layout{settings.layout}">
@@ -14,8 +12,3 @@
 		Album is empty, not public or the album ID or app token is wrong.
 	</f:else>
 </f:if>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$(".fancybox").fancybox();
-	});
-</script>
