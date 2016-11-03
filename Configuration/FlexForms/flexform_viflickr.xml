@@ -56,7 +56,7 @@
 									</numIndex>
 									<numIndex index="6">
 										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.500</numIndex>
-										<numIndex index="1"></numIndex>
+										<numIndex index="1">-</numIndex>
 									</numIndex>
 									<numIndex index="7">
 										<numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.z</numIndex>
@@ -114,7 +114,7 @@
                                     </numIndex>
                                     <numIndex index="6">
                                         <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.500</numIndex>
-                                        <numIndex index="1"></numIndex>
+                                        <numIndex index="1">-</numIndex>
                                     </numIndex>
                                     <numIndex index="7">
                                         <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.sizes.z</numIndex>
