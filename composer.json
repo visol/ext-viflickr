@@ -3,6 +3,6 @@
 	"type": "typo3-cms-extension",
 	"description": "Flickr Gallery",
 	"homepage": "https://github.com/visol/viflickr",
-	"license": ["GPL-2.0+"],
+	"license": ["GPL-2.0-or-later"],
 	"version": "1.0.0"
 }
