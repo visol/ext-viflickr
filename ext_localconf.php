@@ -1,18 +1,9 @@
 <?php
 if (!defined('TYPO3_MODE')) {
-	die ('Access denied.');
+    die ('Access denied.');
 }
 
-\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-	'Visol.' . $_EXTKEY,
-	'Gallery',
-	array(
-		'Gallery' => 'list',
-	),
-	// non-cacheable actions
-	array(
-		
-	)
-);
-
-?>
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin('Visol.' . $_EXTKEY, 'Gallery', [
+    'Gallery' => 'list',
+], // non-cacheable actions
+    []);

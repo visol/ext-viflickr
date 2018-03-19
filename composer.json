@@ -1,8 +1,17 @@
 {
-	"name": "visol/viflickr",
-	"type": "typo3-cms-extension",
-	"description": "Flickr Gallery",
-	"homepage": "https://github.com/visol/viflickr",
-	"license": ["GPL-2.0-or-later"],
-	"version": "1.0.0"
+  "name": "visol/viflickr",
+  "type": "typo3-cms-extension",
+  "description": "Flickr Gallery as TYPO3 Frontend Plugin",
+  "homepage": "https://github.com/visol/viflickr",
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "typo3/cms-core": "^8.7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Visol\\Viflickr\\": "Classes"
+    }
+  }
 }
