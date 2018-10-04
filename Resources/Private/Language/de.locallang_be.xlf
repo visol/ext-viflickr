@@ -63,6 +63,9 @@
 			<trans-unit id="flexforms_general.layouts.3">
 				<source>Layout 3</source>
 			</trans-unit>
+			<trans-unit id="flexforms_general.layouts.4">
+				<source>Slider</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

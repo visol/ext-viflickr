@@ -162,6 +162,10 @@
                                         <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.layouts.3</numIndex>
                                         <numIndex index="1">3</numIndex>
                                     </numIndex>
+                                    <numIndex index="4">
+                                        <numIndex index="0">LLL:EXT:viflickr/Resources/Private/Language/locallang_be.xlf:flexforms_general.layouts.4</numIndex>
+                                        <numIndex index="1">4</numIndex>
+                                    </numIndex>
 								</items>
 							</config>
 						</TCEforms>
